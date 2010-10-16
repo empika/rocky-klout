@@ -1,8 +1,0 @@
-Thanks for using Rocky!
-The latest code can be found on github
-For more information on rocky, see http://rocky.rubyforge.org
-
-NOTE: Change this information in PostInstall.txt 
-You can also delete it if you don't want it.
-
-
