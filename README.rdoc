@@ -14,6 +14,32 @@ HTTParty
 
 sudo gem install rocky-klout
 
+== Usage:
+
+> rk = RockyKlout.new(your_api_key_here)
+> rk.user_show("empika")
+=> Hash
+> rk.user_show(["empika", "kibokoapp", "darthvader"])
+=> Hash
+
+Available methods:
+
+score_klout("username_or_id"), score_klout(["array" "of", "usernames", "or", "ids"])
+
+user_show("username_or_id"), user_show(["array" "of", "usernames", "or", "ids"])
+user_topics("username_or_id"),  user_topics(["array" "of", "usernames", "or", "ids"])
+user_stats("username_or_id"), user_stats(["array" "of", "usernames", "or", "ids"])
+user_history("username_or_id", "measure", "start_date", "end_date"), user_history(["array" "of", "usernames", "or", "ids"], "measure", "start_date", "end_date")
+I have no idea what some of the options for user_history are as its not very well documented. if you know, please let me know.
+
+relationship_influenced_by("username_or_id"), relationship_influenced_by(["array" "of", "usernames", "or", "ids"])
+relationship_influcencer_of("username_or_id"), relationship_influcencer_of(["array" "of", "usernames", "or", "ids"])
+
+topic_search("topic_string")
+topic_verify("topic_string")
+
+Enjoy!
+
 == LICENSE:
 
 (The MIT License)
