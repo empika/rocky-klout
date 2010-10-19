@@ -3,6 +3,7 @@ Manifest.txt
 PostInstall.txt
 README.rdoc
 Rakefile
+init.rb
 lib/rocky-klout.rb
 script/console
 script/destroy
