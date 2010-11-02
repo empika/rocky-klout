@@ -41,7 +41,7 @@ I have no idea what some of the options for user_history are as its not very wel
 
 relationship_influenced_by("username_or_id"), relationship_influenced_by(["array" "of", "usernames", "or", "ids"])
 
-relationship_influcencer_of("username_or_id"), relationship_influcencer_of(["array" "of", "usernames", "or", "ids"])
+relationship_influencer_of("username_or_id"), relationship_influencer_of(["array" "of", "usernames", "or", "ids"])
 
 
 topic_search("topic_string")

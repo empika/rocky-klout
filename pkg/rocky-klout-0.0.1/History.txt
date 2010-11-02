@@ -2,3 +2,8 @@
 
 * 1 major enhancement:
   * Initial release
+
+=== 0.0.2 2010-10-16
+
+* 1 minor enhancement:
+  * Fixed spelling mistake of relationship_influencer_of

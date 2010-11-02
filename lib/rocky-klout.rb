@@ -9,12 +9,12 @@ $:.unshift(File.dirname(__FILE__)) unless
   $:.include?(File.dirname(__FILE__)) || $:.include?(File.expand_path(File.dirname(__FILE__)))
 
 # module RockyKlout
-#   VERSION = '0.0.1'
+#   VERSION = '0.0.2'
 # end
 
 class RockyKlout
     include HTTParty
-    VERSION = '0.0.1'
+    VERSION = '0.0.2'
   
     @@base_uri = "http://api.klout.com"
     @@api_version = "1"
@@ -66,7 +66,7 @@ class RockyKlout
       self.class.get(@@base_uri + request_uri)
     end
     
-    def relationship_influcencer_of(usernames)
+    def relationship_influencer_of(usernames)
       request_uri = "/#{@@api_version}/soi/influencer_of.json?key=#{@@api_key}&users=" + usernames.collect{|name| CGI.escape(name)}.join(",")
       self.class.get(@@base_uri + request_uri)
     end
